@@ -13,15 +13,15 @@ public class Acai {
             ValorTotal += 2.0;
         }
         if(tamanho == 300){
-            return ValorTotal += 8.0;
+            ValorTotal += 8.0;
         }
         else if (tamanho == 500)
         {
-            return ValorTotal += 10.0;
+            ValorTotal += 10.0;
         }
         else {
-            return ValorTotal += 12.0;
+            ValorTotal += 12.0;
         }
-
+        return ValorTotal;
     }
 }
